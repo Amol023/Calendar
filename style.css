@@ -1,5 +1,5 @@
+/*
 #main-container {
-  /*box-sizing: border-box;*/
   padding: 0 10px;
   width: 600px;
   height: 720px;
@@ -25,4 +25,32 @@ p:nth-child(odd) {
 
 p:nth-child(even) {
   padding-left: 20px;
+}
+*/
+.main-table {
+  /*border-collapse: collapse;*/
+  height: 720px;
+}
+.time-box {
+  margin-bottom: 7px;
+  width: 100px;
+  float: right;
+  /*margin-right: 100px;*/
+}
+
+.left-box,
+.right-box {
+  width: 300px;
+  background: #ebebe0;
+}
+
+.left-box {
+  padding-left: 10px;
+}
+.right-box {
+  padding-right: 10px;
+}
+
+tr:nth-of-type(2(1) + 2) {
+  background: cyan;
 }

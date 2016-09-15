@@ -7,19 +7,19 @@ function layOutDay(events) {
     event['end'] = timeConverter(event['end']);
   });
 
-  const eventBox = document.getElementById('trial-container');
-
-  // const emptyNode = document.createTextNode('');
-  const trialBox = document.createElement('div');
-  trialBox.style.background='black';
-  trialBox.style.position = 'relative';
-  trialBox.style.left = '100px';
-  trialBox.style.width= "500px";
-  trialBox.style.height = '500px';
-
-  // trialBox.appendChild(emptyNode);
-
-  eventBox.appendChild(trialBox);
+  // const eventBox = document.getElementById('trial-container');
+  //
+  // // const emptyNode = document.createTextNode('');
+  // const trialBox = document.createElement('div');
+  // trialBox.style.background='black';
+  // trialBox.style.position = 'relative';
+  // trialBox.style.left = '100px';
+  // trialBox.style.width= "500px";
+  // trialBox.style.height = '500px';
+  //
+  // // trialBox.appendChild(emptyNode);
+  //
+  // eventBox.appendChild(trialBox);
 
   return copy;
 }
